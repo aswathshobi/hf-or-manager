@@ -1,0 +1,77 @@
+// Search Box Component Styles
+$search-border: #d1d5db;
+$search-focus: #3b82f6;
+$search-bg: #ffffff;
+$search-icon-color: #9ca3af;
+$search-text: #1f2937;
+
+.search-box {
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+
+  &__input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    position: absolute;
+    left: 0.75rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    color: $search-icon-color;
+    pointer-events: none;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.625rem 0.75rem 0.625rem 2.5rem;
+    border: 1.5px solid $search-border;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    color: $search-text;
+    background-color: $search-bg;
+    transition: all 0.2s ease;
+    outline: none;
+
+    &::placeholder {
+      color: $search-icon-color;
+    }
+
+    &:focus {
+      border-color: $search-focus;
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+    }
+  }
+
+  &__clear {
+    position: absolute;
+    right: 0.5rem;
+    padding: 0.25rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $search-icon-color;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+
+    svg {
+      width: 1rem;
+      height: 1rem;
+    }
+
+    &:hover {
+      color: $search-text;
+      background-color: #f3f4f6;
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

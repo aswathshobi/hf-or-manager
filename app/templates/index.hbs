@@ -1,0 +1,8 @@
+<div class="layout">
+  <aside class="layout__sidebar">
+    <EmployeeList @employees={{@model}} @onFilterChange={{this.handleFilterChange}} />
+  </aside>
+  <main class="layout__content">
+    <OrgChart @employees={{this.displayedEmployees}} @onEmployeeUpdate={{this.handleEmployeeUpdate}} />
+  </main>
+</div>

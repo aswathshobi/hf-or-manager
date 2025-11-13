@@ -1,0 +1,88 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "designation": "CEO",
+      "team": "Executive",
+      "manager": null
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "designation": "VP of Engineering",
+      "team": "Engineering",
+      "manager": "1"
+    },
+    {
+      "id": "3",
+      "name": "Emily Rodriguez",
+      "designation": "VP of Sales",
+      "team": "Sales",
+      "manager": "1"
+    },
+    {
+      "id": "4",
+      "name": "David Kim",
+      "designation": "Engineering Manager",
+      "team": "Engineering",
+      "manager": "1"
+    },
+    {
+      "id": "5",
+      "name": "Lisa Wang",
+      "designation": "Senior Software Engineer",
+      "team": "Engineering",
+      "manager": "4"
+    },
+    {
+      "id": "6",
+      "name": "James Anderson",
+      "designation": "Software Engineer",
+      "team": "Engineering",
+      "manager": "4"
+    },
+    {
+      "id": "7",
+      "name": "Maria Garcia",
+      "designation": "Sales Manager",
+      "team": "Sales",
+      "manager": "3"
+    },
+    {
+      "id": "8",
+      "name": "Robert Taylor",
+      "designation": "Sales Representative",
+      "team": "Sales",
+      "manager": "11"
+    },
+    {
+      "id": "9",
+      "name": "Jennifer Lee",
+      "designation": "Sales Representative",
+      "team": "Sales",
+      "manager": "7"
+    },
+    {
+      "id": "10",
+      "name": "Thomas Brown",
+      "designation": "VP of Marketing",
+      "team": "Marketing",
+      "manager": "1"
+    },
+    {
+      "id": "11",
+      "name": "Amanda Wilson",
+      "designation": "Marketing Manager",
+      "team": "Marketing",
+      "manager": "10"
+    },
+    {
+      "id": "12",
+      "name": "Christopher Davis",
+      "designation": "Content Specialist",
+      "team": "Marketing",
+      "manager": "11"
+    }
+  ]
+}
