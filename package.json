@@ -90,5 +90,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "d3-org-chart": "^3.1.1"
   }
 }
